@@ -1,0 +1,244 @@
+
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    background-color: rgba(175, 173, 217, 0.7); 
+
+}
+
+h1 {
+    font-size: 50px;    
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 50px;
+    color: #6668AA;
+    font-weight: 300;
+    padding-left: 250px;
+
+    
+}
+
+h4 {
+    font-size: 24px;
+}
+
+
+strong {
+    font-weight: 500;
+
+}
+
+header {
+width: 100%;
+height: 100px;
+background-color: #6668AA;
+z-index: 1;
+position: fixed;
+
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 1400px;
+    margin: auto;
+   
+     
+}
+
+
+
+.logo {
+        height: 60px; 
+    
+}
+
+li {
+    margin-top: 23px;
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+
+
+
+.mission {
+    background-image: url("../Images/HeaderImage2.png") ;
+    background-repeat: no-repeat;
+    top: 100px;
+    position: relative;
+    margin-bottom: 150px;
+    
+    
+     
+}
+
+#mission
+    {   margin: auto;      
+        color: white;        
+        padding-left: 250px;
+        padding-top: 75px;
+        padding-bottom: 300px;
+        line-height: 100px;   
+    }
+
+.background  {
+    background-color: rgba(0, 0, 0, .5); 
+
+}
+
+
+.Portfolio {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    height: 700px;           
+
+}
+
+.image h4 {
+    text-align: center;
+    color: #6668AA;
+    font-weight: 300;
+
+}
+
+#image {
+
+    width: 400px;
+    box-shadow: 5px 5px 10px rgb(103, 97, 97);
+}
+
+#btn {
+
+    text-align: center; 
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 50px;
+    
+  
+}
+
+.btn {
+    color: #FFF;
+    border: solid 3px;
+    border-radius: 15px;
+    border-color: #AA9E67;
+    background-color:rgb(102, 104, 170);
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: 200;
+    box-shadow: 5px 5px 15px rgba(102, 104, 170, 0.882);
+    text-decoration: none; 
+}
+
+.btn:visited {
+    color: #FFF; 
+    border-color: rgb(102, 104, 170);
+    background-color:#AA9E67;
+    box-shadow: none; 
+}
+
+
+
+
+.btn:hover {
+    cursor: pointer;
+    font-weight: 400;
+ 
+}
+.btn:active {
+      font-weight: 200;
+      box-shadow: none; 
+ }
+
+
+
+#arrow {
+   height: 15px;
+   padding-left: 20px;
+ 
+}
+
+
+
+.team {
+    background-image: url("../Images/Team\ Background.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 700px;
+ }
+
+
+#teamimage {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 250px;
+    height: 400px;
+    box-shadow: 5px 5px 10px rgb(103, 97, 97);
+   
+}
+
+#overlay {
+
+    background-color: rgba(0, 0, 0, .5); 
+}
+
+.teammate h4 {
+    text-align: center;
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 500;
+
+
+}
+
+.teammate p {
+    text-align: center;
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 300;
+    margin-top: -25px;
+  
+}
+
+footer {
+width: 100%;
+  padding-top: 20px;
+    padding-bottom: 50px;
+
+background-color: #6668AA;
+
+
+}
+ .footer {
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 1400px;
+    margin: auto;
+ }
+
+ #details {
+    text-align: right;
+    color: #FFF;
+ }
+
